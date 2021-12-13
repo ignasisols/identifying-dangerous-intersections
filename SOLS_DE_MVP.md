@@ -9,3 +9,7 @@ The workflow diagram is the following:
 <img
 src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram.jpeg" width="600px" />
 
+
+In the next few days, I plan to identify all accidents that occurred in intersections, cluster them to identify dangerous intersections, and generate an interactive web app. 
+
+
