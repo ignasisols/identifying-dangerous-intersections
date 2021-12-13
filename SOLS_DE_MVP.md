@@ -6,7 +6,6 @@ The goal of this project is to identify the most dangerous intersections in the 
 
 The workflow diagram is the following: 
 
-![diagram](https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram.pdf)
-
-
+<img
+src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram.jpeg" width="600px" />
 
