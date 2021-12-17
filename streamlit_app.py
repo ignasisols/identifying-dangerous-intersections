@@ -62,8 +62,8 @@ colorscale = [
 [1, 'rgb(255, 0, 0)']
 ]
 
-MAPBOX_TOKEN = str(st.secrets["MAPBOX_TOKEN"])
-px.set_mapbox_access_token(MAPBOX_TOKEN)
+# MAPBOX_TOKEN = st.secrets["MAPBOX_TOKEN"]
+# px.set_mapbox_access_token(MAPBOX_TOKEN)
 
 # px.set_mapbox_access_token(open(".streamlit/secrets.toml").read())
 
@@ -71,10 +71,10 @@ px.set_mapbox_access_token(MAPBOX_TOKEN)
 
 if choice == 'Only intersections with fatalities':
     data_input = data_input[data_input['fatalities_ratio'] > 0.0].copy()
-    fig = px.scatter_mapbox(data_input, lat="Latitude", lon="Longitude", size="num_accidents_fatalities", size_max=15, zoom=zoom_map) # zoom=2.5
+    fig = px.scatter_mapbox(data_input, lat="Latitude", lon="Longitude", size="num_accidents_fatalities", size_max=20, zoom=zoom_map,mapbox_style='open-street-map') # zoom=2.5
 else:
     fig = px.scatter_mapbox(data_input, lat="Latitude", lon="Longitude", color="fatalities_ratio", size="count",
-                      color_continuous_scale=colorscale, size_max=15, zoom=zoom_map) # zoom=2.5
+                      color_continuous_scale=colorscale, size_max=15, zoom=zoom_map,mapbox_style='open-street-map') # zoom=2.5
 
 
 st.plotly_chart(fig)
