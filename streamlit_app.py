@@ -62,7 +62,7 @@ colorscale = [
 [1, 'rgb(255, 0, 0)']
 ]
 
-MAPBOX_TOKEN = st.secrets["MAPBOX_TOKEN"]
+MAPBOX_TOKEN = str(st.secrets["MAPBOX_TOKEN"])
 px.set_mapbox_access_token(MAPBOX_TOKEN)
 
 # px.set_mapbox_access_token(open(".streamlit/secrets.toml").read())
