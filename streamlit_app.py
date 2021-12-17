@@ -12,7 +12,7 @@ To run this app:
 In the terminal:
 1-Load the intersections_app_streamlit environment (conda activate intersections_app_streamlit)
 2- cd into this directory: cd Metis_projects/metis_DataEngineering_project/
-3. Run `streamlit run streamlit_intersections_app.py`
+3. Run `streamlit run streamlit_app.py`
 """
 
 import pandas as pd
@@ -62,7 +62,11 @@ colorscale = [
 [1, 'rgb(255, 0, 0)']
 ]
 
-px.set_mapbox_access_token(open(".mapbox_token").read())
+
+mapbox_token = st.secrets["mapbox"]["secret_token"]
+#px.set_mapbox_access_token(open(".streamlit/secrets.toml").read())
+
+# px.set_mapbox_access_token(open(".mapbox_token").read())
 
 if choice == 'Only intersections with fatalities':
     data_input = data_input[data_input['fatalities_ratio'] > 0.0].copy()
