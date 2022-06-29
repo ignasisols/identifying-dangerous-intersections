@@ -1,4 +1,4 @@
-# Identifying dangerous intersections for conversion into roundabouts 
+# Identifying dangerous intersections in the United States for conversion into roundabouts 
 
 Ignasi Sols
 
