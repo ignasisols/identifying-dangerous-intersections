@@ -28,7 +28,7 @@ First, for each of the 219,539 accidents, I have narrowed down the accidents to 
 ![algorithm_figure_1](algorithm_figure_1.png)
 
 <img
-src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/algorithm_figure_1.png" width="600px" />
+src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/algorithm_figure_1.png" width="800px" />
 
 Next, I proceed to identify specific intersections. For each accident, I included their ID number on its specific list of accidents that occurred at less than 50 meters. For instance, if accident number 11 happened close to accidents [12, 14, 21], I updated the list to be now [**1** 12,14,21]. Then, the lists are converted to sets, and then, the algorithm counts unique sets. For instance, the set  [**1**12,14,21] might have appeared repeated **four times** if each of the accidents of the set occurred 50 meters from each other. But imagine that there was another accident happening close to this cluster, but not close enough to all the other accidents. We could have accident 100 happening less than 50 meters away from accident 14, but more than 50 meters away from the other accidents [11, 12, 21]. The set would be [14  **100**], and this set can only be repeated **2 times**. What the algorithm does next is that it drops the set with fewer repetitions and only keeps the one with more repetitions, the assumption being that the unique set with more repetitions is more likely to be the accident cluster core. 
 
