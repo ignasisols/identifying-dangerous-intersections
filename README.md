@@ -52,7 +52,7 @@ I generated a web app with Streamlit, available on Streamlit sharing. This web a
 https://share.streamlit.io/ignasisols/metis_dataengineering_project/main
 
 <img
-src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram_for_presentation.jpg" width="600px" />
+src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram_for_presentation.jpg" width="800px" />
 
 
 
