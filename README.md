@@ -4,7 +4,7 @@ Ignasi Sols
 
 ## **Abstract**
 
-The business impact of this project is to reduce the number of accidents, injuries, and deaths in US intersections. Targeted to the US Congress, the impact hypothesis is that converting dangerous intersections into roundabouts will reduce the number of accidents, injuries, and deaths. The Data Science solution that I provide here is the identification, with a clustering algorithm, of the intersections in the US with at least two accidents between 2016 and 2020, and an interactive dashboard tool in Streamlit Sharing, to visualize my results. The scientific evidence supporting the conversion of intersections is a 2017 **meta-analysis of 44 different studies showing a 65% decrease in fatal accidents when converting junctions into roundabouts** (https://pubmed.ncbi.nlm.nih.gov/28064101/=100x20). 
+The business impact of this project is to reduce the number of accidents, injuries, and deaths in US intersections. Targeted to the US Congress, the impact hypothesis is that converting dangerous intersections into roundabouts will reduce the number of accidents, injuries, and deaths. The Data Science solution that I provide here is the identification, with a clustering algorithm, of the intersections in the US with at least two accidents between 2016 and 2020, and an interactive dashboard tool in Streamlit Sharing, to visualize my results. The scientific evidence supporting the conversion of intersections is a 2017 **meta-analysis of 44 different studies showing a 65% decrease in fatal accidents when converting junctions into roundabouts** (https://pubmed.ncbi.nlm.nih.gov/28064101/=200x200). 
 
 
 ## **Design**
