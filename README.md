@@ -4,7 +4,16 @@ Ignasi Sols
 
 ## **Abstract**
 
-The business impact of this project is to reduce the number of accidents, injuries, and deaths in US intersections. Targeted to the US Congress, the impact hypothesis is that converting dangerous intersections into roundabouts will reduce the number of accidents, injuries, and deaths. The Data Science solution that I provide here is the identification, with a clustering algorithm, of the intersections in the US with at least two accidents between 2016 and 2020, and an interactive dashboard tool in **Streamlit Sharing**, to visualize my results. The scientific evidence supporting the conversion of intersections is a 2017 **meta-analysis of 44 different studies showing a 65% decrease in fatal accidents when converting junctions into roundabouts** (https://pubmed.ncbi.nlm.nih.gov/28064101/=200x200). 
+The business impact of this project is to reduce the number of accidents, injuries, and deaths in US intersections. Targeted to the US Congress, the impact hypothesis is that converting dangerous intersections into roundabouts will reduce the number of accidents, injuries, and deaths. The Data Science solution that I provide here is the identification, with a custom clustering algorithm, of the intersections in the US with at least two accidents between 2016 and 2020, and an interactive dashboard tool in **Streamlit Sharing**, to visualize my results. The scientific evidence supporting the conversion of intersections is a 2017 **meta-analysis of 44 different studies showing a 65% decrease in fatal accidents when converting junctions into roundabouts** (https://pubmed.ncbi.nlm.nih.gov/28064101/=200x200). 
+
+Before explaining all the details of this project, here you can find a video recording of the Streamlit web app in action. The user can toggle between (a) a view that includes all intersections with at least two accidents, and (b) another view with only intersections that had fatalities:
+
+
+[![streamlit web app recording](https://youtu.be/TlCg0dq2YXo)](https://youtu.be/TlCg0dq2YXo)
+
+
+Also, **in a previous iteration of this project**, I made a **Tableau Dashboard** with only data from the state of Pennsylvania and no fatalities information. Unlike the Streamlit web app, this Tableau dashboard includes an embedded **Google Maps/Street View**. I have uploaded a video recording of this dashboard in action. You can find this video recording, with other relevant information, at the end of this README file. 
+
 
 
 ## **Design**
@@ -53,6 +62,12 @@ https://share.streamlit.io/ignasisols/metis_dataengineering_project/main
 
 <img
 src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram_for_presentation.jpg" width="800px" />
+
+
+## Tableau Dashboard.
+As I mentioned earlier, **in the first iteration of this project**, I made a **Tableau Dashboard** with data from the state of Pennsylvania only, and with no fatalities information (only the Kaggle dataset was used in this first iteration). In this case, in addition to a Pennsylvania map that displayed all the dangerous intersections, I embedded a **Google Maps/Google Street view**. This way, when a user clicks on a dangerous intersection on the Pennsylvania map, Google maps/Google Street View is redirected to that intersection in the same dashboard. Note that Google Maps embeddings are only available for offline view with Tableau unless the user pays. In this dashboard, the user has the option to view intersections with specific numbers of accidents (e.g., display intersections that had two accidents, or intersections with ten accidents).
+
+[![streamlit web app recording](https://www.youtube.com/watch?v=V1tIhZ0rGkw)](https://www.youtube.com/watch?v=V1tIhZ0rGkw)
 
 
 
