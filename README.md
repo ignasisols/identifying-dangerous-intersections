@@ -53,15 +53,15 @@ After inspecting numerous intersection locations on Google Maps, I decided to dr
 * Plotly for map visualization. I used OpenStreetMap for the detailed US map used for visualization.
 * Streamlit for web app design and hosting.
 
+<img
+src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram_for_presentation.jpg" width="800px" />
+
 
 ## Communication
 
 I generated a web app with Streamlit, available on Streamlit sharing. This web app allows the user to visualize all intersections (including those that had no fatalities reported). In this case, the map provides fatality ratio information as well as the overall number of accidents in each intersection. The user can also choose to view a map with only intersections that had fatalities.
 
 https://share.streamlit.io/ignasisols/metis_dataengineering_project/main
-
-<img
-src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workflow_diagram_for_presentation.jpg" width="800px" />
 
 
 ## Tableau Dashboard.
