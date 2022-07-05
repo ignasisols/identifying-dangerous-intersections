@@ -9,7 +9,7 @@ The business impact of this project is to reduce the number of accidents, injuri
 Before explaining all the details of this project, here you can find a video recording of the Streamlit web app in action. The user can toggle between (a) a view that includes all intersections with at least two accidents, and (b) another view with only intersections that had fatalities:
 
 
-[![streamlit web app recording](https://youtu.be/TlCg0dq2YXo)](https://youtu.be/TlCg0dq2YXo)
+[![streamlit web app recording](https://img.youtube.com/vi/TlCg0dq2YXo/0.jpg)](https://www.youtube.com/watch?v=TlCg0dq2YXo)
 
 
 Also, **in a previous iteration of this project**, I made a **Tableau Dashboard** with only data from the state of Pennsylvania and no fatalities information. Unlike the Streamlit web app, this Tableau dashboard includes an embedded **Google Maps/Street View**. I have uploaded a video recording of this dashboard in action. You can find this video recording, with other relevant information, at the end of this README file. 
@@ -67,7 +67,7 @@ src="https://github.com/ignasisols/metis_DataEngineering_project/blob/main/workf
 ## Tableau Dashboard.
 As I mentioned earlier, **in the first iteration of this project**, I made a **Tableau Dashboard** with data from the state of Pennsylvania only, and with no fatalities information (only the Kaggle dataset was used in this first iteration). In this case, in addition to a Pennsylvania map that displayed all the dangerous intersections, I embedded a **Google Maps/Google Street view**. This way, when a user clicks on a dangerous intersection on the Pennsylvania map, Google maps/Google Street View is redirected to that intersection in the same dashboard. Note that Google Maps embeddings are only available for offline view with Tableau unless the user pays. In this dashboard, the user has the option to view intersections with specific numbers of accidents (e.g., display intersections that had two accidents, or intersections with ten accidents).
 
-[![streamlit web app recording](https://www.youtube.com/watch?v=V1tIhZ0rGkw)](https://www.youtube.com/watch?v=V1tIhZ0rGkw)
+[![Tableau Dashboard recording](https://img.youtube.com/vi/V1tIhZ0rGkw/0.jpg)](https://www.youtube.com/watch?v=V1tIhZ0rGkw)
 
 
 
