@@ -12,7 +12,7 @@ Before explaining all the details of this project, here you can find a video rec
 [![streamlit web app recording](https://img.youtube.com/vi/TlCg0dq2YXo/0.jpg)](https://www.youtube.com/watch?v=TlCg0dq2YXo)
 
 
-Also, **in a previous iteration of this project**, I made a **Tableau Dashboard** with only data from the state of Pennsylvania and no fatalities information. Unlike the Streamlit web app, this Tableau dashboard includes an embedded **Google Maps/Street View**. I have uploaded a video recording of this dashboard in action. You can find this video recording, with other relevant information, at the end of this README file. 
+Also, **in a previous iteration of this project**, I made a **Tableau Dashboard** with only data from the state of Pennsylvania and no fatalities information. Unlike the Streamlit web app, this Tableau dashboard includes an embedded **Google Maps/Street View**. I have uploaded a **video recording** of this dashboard in action. You can find this video recording, with other relevant information, at the end of this README file. 
 
 
 
